@@ -12,13 +12,16 @@ name: "aoshu个人博客"
 url: # http://www.panxw.com
 domain: # www.panxw.com
 all_categories: [
+["recent_post", "最新文章","/recent_post.html"],
 ["xc", "行程问题","/posts/xc.html"], 
 ["sl", "数论问题","/posts/sl.html"],
 ["jh", "几何问题","/posts/jh.html"], 
 ["js", "计数问题","/posts/js.html"], 
 ["yyt", "应用题","/posts/yyt.html"], 
 ["jiSuan", "计算问题","/posts/jiSuan.html"], 
-["zt", "奥数杂题","/posts/zt.html"], 
+["zt", "奥数杂题","/posts/zt.html"],
+["archive", "存档","/archives.html"], 
+["FAQS", "帮助","/faqs.html"], 
 ["about", "关于","/about.html"]
 ]
 

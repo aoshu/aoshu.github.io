@@ -1,0 +1,16 @@
+---
+layout: page
+title: "归档"
+---
+
+<div class="col-lg-12">
+<ul class="list-unstyled">
+{% for post in site.posts limit:12 %}
+  <li>
+	<a href="{{ post.url }}">
+	  {{ post.title }}
+	</a>
+  </li>
+{% endfor %}  
+</ul>
+</div>
