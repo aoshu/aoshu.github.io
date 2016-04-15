@@ -2,7 +2,7 @@ markdown: kramdown
 mathjax: true
 
 highlighter: pygments
-permalink: /posts/:title.html
+permalink: /fenlei/:title.html
 excerpt_separator: "<!-- more -->"
 
 github: aoshu
@@ -12,21 +12,21 @@ name: "aoshu个人博客"
 url: # http://www.panxw.com
 domain: # www.panxw.com
 all_categories: [
-["recent_post", "最新文章","/recent_post.html"],
-["xc", "行程","/posts/xc.html"], 
-["sl", "数论","/posts/sl.html"],
-["jh", "几何","/posts/jh.html"], 
-["js", "计数","/posts/js.html"], 
-["yyt", "应用题","/posts/yyt.html"], 
-["jiSuan", "计算","/posts/jiSuan.html"], 
-["zt", "杂题","/posts/zt.html"],
+#["latest", "最新文章","/latest.html"],
+["xc", "行程","/fenlei/xc.html"], 
+["sl", "数论","/fenlei/sl.html"],
+["jh", "几何","/fenlei/jh.html"], 
+["js", "计数","/fenlei/js.html"], 
+["yyt", "应用题","/fenlei/yyt.html"], 
+["jit", "计算题","/fenlei/jst.html"], 
+["zt", "杂题","/fenlei/zt.html"],
 ["archive", "存档","/archives.html"], 
 ["FAQS", "帮助","/faqs.html"], 
 ["about", "关于","/about.html"]
 ]
 
 paginate: 8
-paginate_path: "posts/page:num"
+paginate_path: "fenlei/page:num"
 timezone: America/Los_Angeles
 
 collections:
