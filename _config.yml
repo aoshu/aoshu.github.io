@@ -1,4 +1,6 @@
 markdown: kramdown
+mathjax: true
+
 highlighter: pygments
 permalink: /posts/:title.html
 excerpt_separator: "<!-- more -->"
