@@ -23,6 +23,14 @@ $$ 1\times2+2\times3+\cdots+9\times10 = n\times(n+1)\times(n+2)\div3 \tag{2}$$
 & = & 330
 \end{eqnarray}
 
+\begin{eqnarray*}
+& & 1\times2+2\times3+\cdots+9\times10 \\
+& = & \frac{1}{3}\; [1\times2\times3+2\times3\times(4-1)+\cdots+9\times10\times(11-8)] \\
+& = & \frac{1}{3}\; [1\times2\times3+2\times3\times(4-1)+\cdots+9\times10\times(11-8)] \\
+& = & \frac{1}{3}\; [9\times10\times11]\\
+& = & 330
+\end{eqnarray*}
+
 $$
 \begin{aligned}
 Bias(\hat{\theta})  &= E(\hat{\theta}) - \theta \\

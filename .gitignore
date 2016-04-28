@@ -3,3 +3,5 @@
 .RData
 Thumbs.db
 _site/
+_posts/*.html
+_source/*.pdf

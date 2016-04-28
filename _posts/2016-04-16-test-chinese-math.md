@@ -1,13 +1,14 @@
 ---
-layout: post
 title: "任意长度的咬尾和公式"
 author: "aoshu"
-output: 
-  pdf_document: 
+output:
+  html_document: default
+  pdf_document:
     includes:
       in_header: header.tex
       latex_engine: xelatex
     latex_engine: xelatex
+layout: post
 ---
 
 计算：$$1\times2\times3+2\times3\times4+\cdots+8\times9\times10 = \tag{1}$$
@@ -23,6 +24,14 @@ output:
 & = & \frac{1}{3}\; [9\times10\times11]\\
 & = & 330
 \end{eqnarray}
+
+\begin{eqnarray*}
+& & 1\times2+2\times3+\cdots+9\times10 \\
+& = & \frac{1}{3}\; [1\times2\times3+2\times3\times(4-1)+\cdots+9\times10\times(11-8)] \\
+& = & \frac{1}{3}\; [1\times2\times3+2\times3\times(4-1)+\cdots+9\times10\times(11-8)] \\
+& = & \frac{1}{3}\; [9\times10\times11]\\
+& = & 330
+\end{eqnarray*}
 
 \begin{eqnarray} 
 \cos 2\theta & = & \cos^2 \theta - \sin^2 \theta \\ & = & 2 \cos^2 \theta - 1. 
